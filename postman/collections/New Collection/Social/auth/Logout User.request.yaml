@@ -1,0 +1,14 @@
+$kind: http-request
+name: Logout User
+description: ""
+url: http://localhost:7000/api/auth/logout
+method: GET
+body:
+  type: json
+  content: ""
+settings:
+  strictSSL: false
+  followRedirects: true
+  disableCookies: false
+  maxResponseSize: 52428800
+order: 865254908677

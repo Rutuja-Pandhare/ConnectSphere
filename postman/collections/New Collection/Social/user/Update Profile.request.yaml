@@ -1,0 +1,20 @@
+$kind: http-request
+name: Update Profile
+url: http://localhost:7000/api/users/6a847191bf57a79d1ea8fb4a
+method: PUT
+body:
+  type: formdata
+  content:
+    - type: file
+      key: file
+      src:
+        - /C:/Users/ASUS/OneDrive/Desktop/favicon.png
+      description: ""
+      disabled: false
+    - type: text
+      key: name
+      value: Updated name
+      description: ""
+      disabled: false
+examples: .resources/Update Profile.resources/examples
+order: 3000

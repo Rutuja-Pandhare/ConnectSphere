@@ -1,0 +1,8 @@
+$kind: http-request
+name: delete comment
+url: http://localhost:7000/api/posts/comment/6a85b5f1692e7f12cc776f09
+method: DELETE
+body:
+  type: json
+  content: "{\r\n    \r\n}"
+order: 3000

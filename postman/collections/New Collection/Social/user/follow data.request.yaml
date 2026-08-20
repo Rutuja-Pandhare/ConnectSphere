@@ -1,0 +1,6 @@
+$kind: http-request
+name: follow data
+url: http://localhost:7000/api/users/followdata/6a847191bf57a79d1ea8fb4a
+method: GET
+examples: .resources/follow data.resources/examples
+order: 5000

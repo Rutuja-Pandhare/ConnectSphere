@@ -1,0 +1,5 @@
+$kind: http-request
+name: comment on post
+url: http://localhost:7000/api/posts/like/6a85a9e57452992cc0026855
+method: POST
+order: 2000

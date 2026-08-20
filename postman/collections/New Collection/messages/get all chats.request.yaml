@@ -1,0 +1,5 @@
+$kind: http-request
+name: get all chats
+url: http://localhost:7000/chats
+method: GET
+order: 4451148712902678

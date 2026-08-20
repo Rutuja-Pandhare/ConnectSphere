@@ -1,0 +1,5 @@
+$kind: http-request
+name: Delete post
+url: http://localhost:7000/api/posts/6a858b0917b6618799848e16
+method: DELETE
+order: 6000
